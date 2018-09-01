@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMovie"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:clickable="true"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_poster"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="judul"
+        android:id="@+id/txt_judul"
+        android:layout_marginBottom="10dp"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rating"
+        android:id="@+id/txt_popularity"
+        android:layout_marginBottom="10dp"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="waktu tayang"
+        android:id="@+id/txt_releas_date"
+        android:layout_marginBottom="10dp"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/txt_sinopsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sinopsis"
+        android:layout_marginBottom="10dp"
+        android:textSize="19dp"/>
+
+</LinearLayout>
